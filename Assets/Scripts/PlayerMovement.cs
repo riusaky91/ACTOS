@@ -5,6 +5,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 5f;
     private Vector2 touchStart;
     private bool isPlayerControlled;
+    private float limitMovement = 4f; // Límite de movimiento
 
     void Start()
     {
@@ -30,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
 
             // Aplica límites al movimiento (ajusta según tu escenario)
             float newX = transform.position.x + moveX * speed * Time.deltaTime;
-            newX = Mathf.Clamp(newX, -4f, 4f); // Limite de escenario
+            newX = Mathf.Clamp(newX, limitMovement, limitMovement); // Limite de escenario
 
             transform.position = new Vector3(newX, transform.position.y, transform.position.z);
         }
