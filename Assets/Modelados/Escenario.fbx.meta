@@ -3,7 +3,82 @@ guid: 98969176ba55ee64d9fba1462068889a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Acetato
+    second: {fileID: 2100000, guid: 2bd5f285076acd142b59d9c3693e848b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brixk
+    second: {fileID: 2100000, guid: f6e0f16d89e5a504bba15c6c01fa840e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Caratula
+    second: {fileID: 2100000, guid: c21e0c9a40acbed4ba98ee3238572694, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gaviota
+    second: {fileID: 2100000, guid: ef3302602d8f01644a5654677261e57e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: b9b926ec3d83a7e4e8a76d1638f7763c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 5d5ef8a9d38bd8c43af43d63cf018807, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 11565a6f0ca50754390208f98a9ce9ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 34da179827f48944090fdc2bf76f8a11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: 50c11368e645f6a46be3cff2600e127c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mercado
+    second: {fileID: 2100000, guid: de0a510c4fea93047b6ced6b067bce88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metalico
+    second: {fileID: 2100000, guid: 8e78d0c7157ff394b81c981c90790478, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paisaje
+    second: {fileID: 2100000, guid: c197f81206adb2340bf60739ee3ec067, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Store pesca
+    second: {fileID: 2100000, guid: fd2579c74de245b41bea95e1a9e15866, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: c6f96b7a98cd7f74f99e7bee21796d86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: byke
+    second: {fileID: 2100000, guid: cfe0128aaa36d704f81b2672b7f14f1e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
