@@ -408,11 +408,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Golpe patada
-      takeName: Golpe patada
-      internalID: 5373814926224913568
+      name: Hit Blocking
+      takeName: Hit Blocking
+      internalID: -8591530676895484869
       firstFrame: 0
-      lastFrame: 55
+      lastFrame: 24
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -437,11 +437,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Hit Blocking
-      takeName: Hit Blocking
-      internalID: -8591530676895484869
+      name: Golpe patada
+      takeName: Golpe patada
+      internalID: 5373814926224913568
       firstFrame: 0
-      lastFrame: 24
+      lastFrame: 53
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
