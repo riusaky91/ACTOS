@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
-  m_Name: Global Volume (1) Profile
+  m_Name: Global Volume Profile
   m_EditorClassIdentifier: 
   components:
-  - {fileID: 6271904443146949320}
---- !u!114 &6271904443146949320
+  - {fileID: 1496527163112979386}
+--- !u!114 &1496527163112979386
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -28,14 +28,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   distance:
-    m_OverrideState: 0
-    m_Value: 360
+    m_OverrideState: 1
+    m_Value: 188
   baseHeight:
     m_OverrideState: 1
-    m_Value: 2000
+    m_Value: 0
   maximumHeight:
     m_OverrideState: 1
-    m_Value: 20000
+    m_Value: 55.71
   enableGround:
     m_OverrideState: 1
     m_Value: 0
@@ -44,7 +44,7 @@ MonoBehaviour:
     m_Value: 0
   density:
     m_OverrideState: 0
-    m_Value: 0.401
+    m_Value: 0.2
   attenuationDistance:
     m_OverrideState: 0
     m_Value: 128
@@ -65,13 +65,13 @@ MonoBehaviour:
     m_Value: 0
   maxSteps:
     m_OverrideState: 0
-    m_Value: 128
+    m_Value: 117
   blurIterations:
     m_OverrideState: 0
     m_Value: 2
   enabled:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   renderPassEvent:
     m_OverrideState: 0
     m_Value: 550
