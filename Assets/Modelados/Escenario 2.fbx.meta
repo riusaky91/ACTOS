@@ -12,8 +12,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Bocina
+    second: {fileID: 2100000, guid: 91dcfe3229d9bb4408e1a63ac0b92e59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Brixk
     second: {fileID: 2100000, guid: f6e0f16d89e5a504bba15c6c01fa840e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cable Bocina
+    second: {fileID: 2100000, guid: aa26c672ef75d1d4f8ac51fe11bde54b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -27,18 +37,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: b9b926ec3d83a7e4e8a76d1638f7763c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: Material.001
-    second: {fileID: 2100000, guid: 5d5ef8a9d38bd8c43af43d63cf018807, type: 2}
+    second: {fileID: 2100000, guid: acd1906a847c42a45ae635aae5f6e502, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.002
-    second: {fileID: 2100000, guid: 11565a6f0ca50754390208f98a9ce9ff, type: 2}
+    second: {fileID: 2100000, guid: 4ae23e797ecdce641bf0a770a0be675b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -49,11 +54,6 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Material.005
     second: {fileID: 2100000, guid: 50c11368e645f6a46be3cff2600e127c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Metalico
-    second: {fileID: 2100000, guid: 8e78d0c7157ff394b81c981c90790478, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
