@@ -2,31 +2,38 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
-public class ShowButtonAfterTime : MonoBehaviour
+public class ShowUIElementsAfterTime : MonoBehaviour
 {
-    public Button myButton; // Asigna el botón desde el inspector
+    public GameObject[] uiElements; // Asigna los botones o paneles desde el inspector
     public float delay = 5f; // Tiempo de espera en segundos
     public float fadeDuration = 1f; // Duración del fade in en segundos
 
     void Start()
     {
-        myButton.gameObject.SetActive(false); // Oculta el botón al inicio
-        StartCoroutine(ShowButtonAfterDelay());
+        foreach (GameObject element in uiElements)
+        {
+            element.SetActive(false); // Oculta todos los elementos al inicio
+        }
+        StartCoroutine(ShowElementsAfterDelay());
     }
 
-    IEnumerator ShowButtonAfterDelay()
+    IEnumerator ShowElementsAfterDelay()
     {
         yield return new WaitForSeconds(delay); // Espera el tiempo especificado
-        myButton.gameObject.SetActive(true); // Muestra el botón
-        StartCoroutine(FadeInButton());
+
+        foreach (GameObject element in uiElements)
+        {
+            element.SetActive(true); // Muestra el elemento
+            StartCoroutine(FadeInElement(element));
+        }
     }
 
-    IEnumerator FadeInButton()
+    IEnumerator FadeInElement(GameObject element)
     {
-        CanvasGroup canvasGroup = myButton.GetComponent<CanvasGroup>();
+        CanvasGroup canvasGroup = element.GetComponent<CanvasGroup>();
         if (canvasGroup == null)
         {
-            canvasGroup = myButton.gameObject.AddComponent<CanvasGroup>();
+            canvasGroup = element.AddComponent<CanvasGroup>();
         }
 
         canvasGroup.alpha = 0f; // Inicialmente invisible
