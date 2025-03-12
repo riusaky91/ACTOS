@@ -15,13 +15,13 @@ MonoBehaviour:
   active: 1
   type:
     m_OverrideState: 1
-    m_Value: 3
+    m_Value: 4
   intensity:
     m_OverrideState: 1
-    m_Value: 0.125
+    m_Value: 0.616
   response:
     m_OverrideState: 1
-    m_Value: 0.394
+    m_Value: 0.651
   texture:
     m_OverrideState: 0
     m_Value: {fileID: 0}
@@ -43,13 +43,13 @@ MonoBehaviour:
     m_Value: 1
   threshold:
     m_OverrideState: 1
-    m_Value: 1.06
+    m_Value: 1.45
   intensity:
     m_OverrideState: 1
-    m_Value: 1.85
+    m_Value: 5.53
   scatter:
     m_OverrideState: 1
-    m_Value: 0.582
+    m_Value: 0.536
   clamp:
     m_OverrideState: 0
     m_Value: 65471.93
@@ -103,4 +103,4 @@ MonoBehaviour:
   active: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 0.35
+    m_Value: 0.254

@@ -20,12 +20,12 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.46792442, g: 0.42731208, b: 0.42731208, a: 1}
+  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 3
-  m_SubtractiveShadowColor: {r: 0.32660726, g: 0.32660726, b: 0.3547169, a: 1}
+  m_SubtractiveShadowColor: {r: 0.10389462, g: 0.10389462, b: 0.12075472, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 5c7fefddf3915814686f618300f55d3b, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -251,7 +251,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 35
+  field of view: 51
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -526,10 +526,10 @@ Light:
   serializedVersion: 11
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2000
+  m_Intensity: 1000
   m_Range: 11.358692
   m_SpotAngle: 50.809254
-  m_InnerSpotAngle: 22.868086
+  m_InnerSpotAngle: 34.285656
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -893,7 +893,7 @@ Light:
   serializedVersion: 11
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2000
+  m_Intensity: 1000
   m_Range: 11.358692
   m_SpotAngle: 50.809254
   m_InnerSpotAngle: 22.868086
@@ -1224,7 +1224,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: 4373eb8b338b1294489cd1e5d65ba382, type: 2}
+  sharedProfile: {fileID: 11400000, guid: 1f11ee6f79203644ea2c23def7a386f2, type: 2}
 --- !u!4 &1036391785
 Transform:
   m_ObjectHideFlags: 0
@@ -1423,7 +1423,7 @@ PrefabInstance:
     - target: {fileID: -5782287145321278961, guid: 61df0ce1fd51dcb43a4e153319e85b8f, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 5d5ef8a9d38bd8c43af43d63cf018807, type: 2}
+      objectReference: {fileID: 2100000, guid: acd1906a847c42a45ae635aae5f6e502, type: 2}
     - target: {fileID: -5057351885226553430, guid: 61df0ce1fd51dcb43a4e153319e85b8f, type: 3}
       propertyPath: m_Lightmapping
       value: 2
@@ -1455,7 +1455,7 @@ PrefabInstance:
     - target: {fileID: -266401881867843036, guid: 61df0ce1fd51dcb43a4e153319e85b8f, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 5d5ef8a9d38bd8c43af43d63cf018807, type: 2}
+      objectReference: {fileID: 2100000, guid: acd1906a847c42a45ae635aae5f6e502, type: 2}
     - target: {fileID: 919132149155446097, guid: 61df0ce1fd51dcb43a4e153319e85b8f, type: 3}
       propertyPath: m_Name
       value: Escenario 2
@@ -1471,7 +1471,7 @@ PrefabInstance:
     - target: {fileID: 6552208249327313376, guid: 61df0ce1fd51dcb43a4e153319e85b8f, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 5d5ef8a9d38bd8c43af43d63cf018807, type: 2}
+      objectReference: {fileID: 2100000, guid: acd1906a847c42a45ae635aae5f6e502, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -5905405458264311728, guid: 61df0ce1fd51dcb43a4e153319e85b8f, type: 3}
