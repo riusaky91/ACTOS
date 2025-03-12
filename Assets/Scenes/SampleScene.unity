@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.0603773, g: 0.056504037, b: 0.056504037, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.01
@@ -32,7 +32,7 @@ RenderSettings:
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
-  m_DefaultReflectionMode: 0
+  m_DefaultReflectionMode: 1
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
@@ -1121,9 +1121,9 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 2
-  m_Color: {r: 0.3160156, g: 0.6490567, b: 0.23023145, a: 1}
-  m_Intensity: 100
-  m_Range: 19.176208
+  m_Color: {r: 0.14295976, g: 0.4603774, b: 0.06080457, a: 1}
+  m_Intensity: 50
+  m_Range: 20
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -1165,7 +1165,7 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 26.512691, y: 1}
   m_BounceIntensity: 1
-  m_ColorTemperature: 6570
+  m_ColorTemperature: 5577
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
@@ -1185,7 +1185,7 @@ Transform:
   m_GameObject: {fileID: 962338968}
   serializedVersion: 2
   m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
-  m_LocalPosition: {x: -2.59, y: 0.86, z: 3.45}
+  m_LocalPosition: {x: -2.59, y: 0.87, z: 3.38}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1431,7 +1431,7 @@ PrefabInstance:
     - target: {fileID: -2488247705458895978, guid: 61df0ce1fd51dcb43a4e153319e85b8f, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 5d5ef8a9d38bd8c43af43d63cf018807, type: 2}
+      objectReference: {fileID: 2100000, guid: acd1906a847c42a45ae635aae5f6e502, type: 2}
     - target: {fileID: -2442624929045505687, guid: 61df0ce1fd51dcb43a4e153319e85b8f, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
@@ -1656,8 +1656,8 @@ Cloth:
   m_ExternalAcceleration: {x: 0, y: 0, z: 0}
   m_RandomAcceleration: {x: 0, y: 0, z: 0}
   m_WorldVelocityScale: 0.5
-  m_WorldAccelerationScale: 0.6
-  m_Friction: 0.4
+  m_WorldAccelerationScale: 0.8
+  m_Friction: 0.2
   m_CollisionMassScale: 1
   m_UseContinuousCollision: 1
   m_UseVirtualParticles: 1
