@@ -4,15 +4,21 @@ using System.Collections;
 
 public class VideoAudioManager : MonoBehaviour
 {
-    public VideoPlayer videoPlayer;      // Asigna tu VideoPlayer en el inspector
+    public VideoPlayer videoPlayer;       // Asigna tu VideoPlayer en el inspector
     public AudioSource videoAudioSource; // AudioSource del audio del video
     public AudioSource nextAudioSource;  // AudioSource del siguiente audio
     public GameObject videoCanvas;       // El Canvas que contiene el video
+    public GameObject dialogueCanvas;    // El Canvas que contiene los diálogos
     public float fadeDuration = 2f;      // Duración del fade out en segundos
 
     void Start()
     {
         videoPlayer.loopPointReached += EndReached; // Detectar fin del video
+        // Asegurarse de que el Canvas de diálogos esté inicialmente desactivado
+        if (dialogueCanvas != null)
+        {
+            dialogueCanvas.SetActive(false);
+        }
     }
 
     void EndReached(VideoPlayer vp)
@@ -36,7 +42,16 @@ public class VideoAudioManager : MonoBehaviour
         videoAudioSource.Stop();
 
         // Desactivar el Canvas del video
-        videoCanvas.SetActive(false);
+        if (videoCanvas != null)
+        {
+            videoCanvas.SetActive(false);
+        }
+
+        // Activar el Canvas de diálogos
+        if (dialogueCanvas != null)
+        {
+            dialogueCanvas.SetActive(true);
+        }
 
         // Reproducir el siguiente audio
         nextAudioSource.Play();
